@@ -28,6 +28,19 @@ public class MainActivity extends AppCompatActivity {
         mul = (Button) findViewById(R.id.mul);
         div = (Button) findViewById(R.id.div);
 
+        sum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Suma();
+            }
+        });
+        rest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Resta();
+            }
+        });
+
     }
 
     public boolean getNumbers() {
