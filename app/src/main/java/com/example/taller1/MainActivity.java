@@ -60,5 +60,11 @@ public class MainActivity extends AppCompatActivity {
 
         return true;
     }
+    public void Suma() {
+        if (getNumbers()) {
+            int sum = num1 + num2;
+            t1.setText(Integer.toString(sum));
+        }
+    }
 
 }
