@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
 
         return true;
     }
-    public void Suma() {
+    public void cubo() {
         if (getNumbers()) {
-            int sum = num1 + num2;
+            int sum = num1*num1*num1;
             t1.setText(Integer.toString(sum));
         }
     }
